@@ -29,6 +29,7 @@ function example_tabs_metaboxes() {
 	// setting tabs
 	$tabs_setting           = array(
 		'args' => $box_options,
+		'layout' => 'vertical', // Optional : Set Layout Vertical. (Default : Horizontal)
 		'tabs' => array()
 	);
 	$tabs_setting['tabs'][] = array(
