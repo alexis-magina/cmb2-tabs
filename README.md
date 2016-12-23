@@ -9,6 +9,7 @@ Extensions the tabs to the library CMB2
 
 *   1.0.0 Init
 *   1.0.1 Added support the "options page"
+*   1.0.2 Adjust CSS and add support for vertical layout
 
 ### Example
 
