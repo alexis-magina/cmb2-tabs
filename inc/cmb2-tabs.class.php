@@ -5,7 +5,7 @@ namespace cmb2_tabs\inc;
 /**
  * Class CMB2_Tabs
  * @package cmb2_tabs\inc
- * @since   1.0.1
+ * @since   1.0.2
  */
 class CMB2_Tabs {
 
