@@ -26,9 +26,10 @@ class CMB2_Tabs {
 	 * @param $object_id
 	 */
 	public function render( $field_object, $escaped_value, $object_id ) {
-		$settings = $field_object->args['tabs'];
+		$settings 	= $field_object->args['tabs'];
+		$layout 	= (isset($settings['layout']) ? 'ui-tabs-'.$settings['layout'] : ''); 
 		?>
-		<div class="dtheme-cmb2-tabs">
+		<div class="dtheme-cmb2-tabs <?php echo $layout; ?>">
 			<ul>
 				<?php foreach ( $settings['tabs'] as $key => $tab ): ?>
 					<li><a href="#<?php echo $tab['id']; ?>"><?php echo $tab['title']; ?></a></li>
