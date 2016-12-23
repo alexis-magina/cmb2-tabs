@@ -3,7 +3,7 @@
 Extensions the tabs to the library CMB2
 
 ### Preview
-![tabs](http://dtheme.studio/static/demo-cmb2-tabs.png)
+![tabs](https://github.com/alexis-magina/cmb2-tabs/blob/master/tabs-layouts.jpg)
 
 ### Changelog
 
